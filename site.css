@@ -1,0 +1,14 @@
+body{
+    background-color: silver;
+}
+.boldText{
+    font-weight: bold;
+   
+}
+#MyHeadLine{
+    font-style: italic;
+    text-align: center;
+}
+header h3, header nav{
+display: inline;
+}
