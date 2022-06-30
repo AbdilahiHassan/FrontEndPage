@@ -1,5 +1,6 @@
 body{
     background-color: silver;
+    margin-left:  20px;
 }
 .boldText{
     font-weight: bold;
@@ -11,4 +12,38 @@ body{
 }
 header h3, header nav{
 display: inline;
+}
+
+table {
+border: 5px solid black;
+}
+td{
+    border: 3px solid lightgrey;
+}
+th{
+    border-bottom: 3px;
+    border-color: black;
+    border-style:  solid;
+}
+.nav{
+    background-color: yellow;
+    list-style: none;
+    text-align: center;
+}
+.nav li{
+    display:inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+.greenCube{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    float: left;
+}
+.redCube{
+ height: 100px;
+ width: 100px;
+    background-color: red;
+    float: left;
 }
